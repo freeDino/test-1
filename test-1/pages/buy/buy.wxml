@@ -1,0 +1,8 @@
+<view class="buy-list-item"  wx:for="{{buylist}}" wx:key="{{index}}">
+    <text>{{item.title}}</text>
+    <text>{{item.desc}}</text>
+    <view class="item-tip">
+        <!-- <image src="/images/play.png" /> -->
+        <text>{{item.tip}}</text>
+    </view>
+</view>
